@@ -11,13 +11,16 @@
 }
 
 .cabecalho {
-    grid-area : cabecalho;
+    align-items: center;
+    display    : flex;
+    grid-area  : cabecalho;
+    padding    : 0 2rem;
 }
 
 .conteudo {
-    grid-area : conteudo;
+    grid-area: conteudo;
 }
 
 .rodape {
-    grid-area : rodape;
+    grid-area: rodape;
 }
